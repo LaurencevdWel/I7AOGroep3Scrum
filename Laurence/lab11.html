@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>For-lus</title>
+</head>
+<body>
+        <script>
+
+
+            var vraag = (prompt("Uw nummer"))
+
+            document.write("uw nummer is : " + vraag +"<br>");
+
+            var getal = new Array();
+            getal[0] = 'nul';
+            getal[1] = 'een';
+            getal[2] = 'twee';
+            getal[3] = 'drie';
+            getal[4] = 'vier';
+            getal[5] = 'vijf';
+            getal[6] = 'zes';
+            getal[7] = 'zeven';
+            getal[8] = 'acht';
+            getal[9] = 'negen';
+
+
+
+            lengte = vraag.length;
+            document.write("uw nummer is : ")
+            for (x = 0; x < lengte; x++) {
+                teken = vraag.charAt(x);
+                document.write(getal[teken] + "  ");
+            }
+        </script>
+
+
+
+</body>
+</html>
